@@ -77,8 +77,8 @@ input {
 
 .search-icon {
 	float: left;	
-  margin-top: 9px;
-  margin-left: 7px;
+    margin-top: 9px;
+    margin-left: 7px;
 }
 
 .card-column {
@@ -86,13 +86,15 @@ input {
 	gap: 10px;
 	min-height: 700px;
     display: grid;
+    grid-template-rows: 20px repeat(5, 100px);
+    align-content: space-around;
 }
 
 .card-column h2 {
 	padding: 0;
-  margin: 0 auto;
-  font-family: WorkSans;
-  font-size: 16px;
+    margin: 0 auto;
+    font-family: WorkSans;
+    font-size: 16px;
 	font-weight: 600;
 	letter-spacing: 0.2px;
 	text-align: left;
